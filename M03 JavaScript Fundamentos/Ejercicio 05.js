@@ -10,10 +10,10 @@ function esPositivo(num) {
    // Tu código:
    var res = "";
    if (num > 0){
-      res = "El número " + num + " Es positivo";
+      res = "Es positivo";
    }
    else if (num < 0){
-      res = "El número " + num + " Es negativo";
+      res = "Es negativo";
    }
    else{
       res = false;
@@ -45,27 +45,27 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
-   return "El área del rectángulo es: " + (ancho * alto);
+   return (ancho * alto);
 }
 
 function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un cuadrado.
    // Debes retornar su perímetro.
    // Tu código:
-   return "El perímetro del cuadrado es: " + (lado * 4);
+   return (lado * 4);
 }
 
 function areaDelTriangulo(base, altura) {
    // Calcula el área de un triángulo y retorna el resultado.
    // Tu código:
-   return "El área del triángulo es: " + ((base * altura) / 2);
+   return ((base * altura) / 2);
 }
 
 function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
-   return "El valor en dólares de " + euro + " euro(s) es: " + (euro * 1.20);
+   return (euro * 1.20);
 }
 
 function esVocal(letra) {
@@ -75,7 +75,7 @@ function esVocal(letra) {
    // Tu código:
    var res = "";
    if (letra.length == 1 && (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")){
-      res = "La letra " + letra + " es vocal";
+      res = "Es vocal";
    }
    else{
       res = "Dato incorrecto";
